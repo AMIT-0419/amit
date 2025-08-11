@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit K | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #dbe6f6, #c5796d);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      padding: 20px 40px;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    h2 {
+      color: #1e3c72;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #2a5298;
+      display: inline-block;
+    }
+
+    ul li, .project p {
+      margin-bottom: 10px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid #2a5298;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .project-folder {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-item {
+      background: #fff;
+      padding: 15px;
+      border-left: 4px solid #1e3c72;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background: #2a5298;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #1e3c72;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .social-media a {
+      text-decoration: none;
+      color: white;
+      background: #2a5298;
+      padding: 10px 15px;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .social-media a:hover {
+      background: #1e3c72;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e3c72;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Amit K</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#objectives">career objectives</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="resume/resume.html" target="_blank">View Resume (HTML)</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a BCA student at Karnataka University, passionate about coding, freelancing, and building useful applications. Skilled in Python, Java, C++, and web development.Dedicated and results-driven Bachelor of Computer Applications (BCA) student at Karnataka University, Dharwad, with a strong academic record (7.5 CGPA, no backlogs). Proficient in C, C++, Java, Python, CMA, and PHP, with hands-on experience in software development, problem-solving, and algorithmic thinking. Successfully completed multiple NPTEL certifications, showcasing a commitment to continuous learning and technical excellence. Passionate about leveraging programming skills to develop innovative solutions and contribute to dynamic projects. Strong analytical abilities, adaptability, and a collaborative mindset to drive efficiency and creativity in a tech-driven environment.</p>
+  </section>
+   
+  <section id="objectives">
+    <h2>career objectives</h2>
+   <p>To be a part of an innovative and growth-driven organization that fosters professional excellence
+and challenges me to push my limits. I aim to leverage my technical expertise, problem-solving
+mindset, and passion for continuous learning to contribute effectively to a dynamic team. I am
+committed to driving efficiency, creativity, and impactful solutions that align with the company's
+vision, ensuring mutual growth and success.</p>
+</section>
+  
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C/C++</li>
+      <li>HTML/CSS/JS</li>
+      <li>PHP</li>
+      <li>Excel, Data Entry</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Disease Prediction System</h3>
+      <p>Predict diseases based on symptoms using Machine Learning. Includes patient data management and web interface.</p>
+    </div>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li><a href="https://www.life-global.org/certificate/46af315d-29e5-4814-9cf0-9de25fa4c7d3" target="_blank">HPLIFE: IT for business success - [View Certificate]</a></li>
+      <li><a href="https://www.life-global.org/certificate/dcb25d39-b92a-4f75-9aa8-bbda4515a72d" target="_blank">HPLIFE: DATA SCIENCE AND ANALYTICS - [View Certificate]</a></li>
+      <li><a href="https://www.life-global.org/certificate/38b020f6-4d9d-4ed2-bb19-ae296661dd94" target="_blank">HPLIFE: AI for beginners - [View Certificate]</a></li>
+      <li><a href="https://api-fe.skillindiadigital.gov.in/api/registry-course/getCertificatePresignedUrl/2025071113442808-3141a3ba-1c3c-46e8-a3c4-87adb60c3a1b" target="_blank">NSDC: BANK BRANCH EXECUTIVE - [View Certificate]</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social-media">
+      <a href="https://github.com/AMIT-0419" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/amit-koravar-715b86304" target="_blank">LinkedIn</a>
+      <a href="https://www.apnacareer.com" target="_blank">Apna</a>
+      <a href="https://www.naukri.com" target="_blank">Naukri</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Amit K. All rights reserved.</p>
+  </footer>
+</body>
+</html>
